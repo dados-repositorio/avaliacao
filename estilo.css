@@ -7,8 +7,8 @@ body{
 div#global{
  margin: auto;
  margin-top: 10px;
- width: 400px;
- height: 380px;
+ width: 470px;
+ height:450px;
  background-color: rgb(255, 255, 255);
  border-radius: 5px;
  border: solid 0.5px #009970;
@@ -54,19 +54,21 @@ table{
     width: 100%;
 }
 input[type="radio"]{
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     text-align: center;
 }
 td{
-    font-size: 5pt;
+    font-size: 6.5pt;
     width: 50px;
     height: 5px;
     /*background-color: chartreuse;*/
 }
 th{
     text-align: left;
+    font-size: 6pt;
     width: auto;
+    font-weight: bolder;
 }
 input[type="submit"]{
     width: 150px;
