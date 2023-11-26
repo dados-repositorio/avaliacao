@@ -57,20 +57,28 @@ table{
     font-size: 5pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(43, 31, 0);
-    background-color: #e2e2e2;
+    background-color: #e6e6e6;
     border-radius: 3px;
     width: 100%;
 }
-input[type="checkbox"]{
+input[type="radio"]{
     width: 25px;
     height: 25px;
 }
 td{
     font-size: 8.5pt;
     width: 5px;
-    height: 30px;
+    height: 10px;
     /*background-color: chartreuse;*/
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
+}
+td.numero{
+    font-size: 8.5pt;
+    width: 3px;
+    height: 10px;
+    /*background-color: chartreuse;*/
+    text-align: right;
     font-weight: bold;
 }
 th{
